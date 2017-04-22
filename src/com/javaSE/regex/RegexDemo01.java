@@ -19,10 +19,8 @@ public class RegexDemo01 {
 
         // 这种正则表达式，现在是一个字符串，是不好，
         // 要把这种写好的正则表达式放在 Pattern 类中。因为存在JDK 里面的一种特定格式，使匹配的更快使匹
-
         Pattern p = Pattern.compile(reg);
         Matcher m = p.matcher("cdeabcadcbhafca");
-
     }
 }
 
