@@ -1,0 +1,7 @@
+1、抽象工厂 (它不在负责产品的创建) (ICreator)接口。
+2、具体工厂对象 1 ，负责产品对象的创建 ConcreateCreator01
+3、具体工厂对象 2，负责产品对象的创建 ConcreateCreator02
+
+4、抽象产品，把产品所有共有的定义在这个接口。IProducts
+5、具体产品 ConcreateProduct01
+6、具体产品 ConcreateProduct02
