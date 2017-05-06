@@ -44,12 +44,5 @@ public class ConllectionDemo01 {
         // 一个方法引用来 循环。
         c1.forEach(System.out::println);
 
-
-
-
-
-
-
-
     }
 }
