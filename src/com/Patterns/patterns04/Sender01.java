@@ -58,7 +58,7 @@ class SendFactory {
 	}
 }
 
-// static factory Interface
+// static factory Interface xxx
 
 // static factory
 
