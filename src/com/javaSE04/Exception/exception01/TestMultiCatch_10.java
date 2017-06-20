@@ -32,7 +32,6 @@ public class TestMultiCatch_10 extends Exception {
         // 如果你想对不同的异常是不同的处理，还是用第一种好战。
         // 这种方式，加 异常判断可以 对 不同异常 不同处理不？？？
 
-
     }
 
 }
