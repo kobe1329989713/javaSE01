@@ -4,7 +4,7 @@ package com.javaSE04.Exception.rmi_04;
  * <br/> author：Kobe
  * <br/> date：2017/6/21 0021
  * <br/> time：14:57
- * <br/> now：星期三
+ * <br/> now：星期三 3
  * <br/> description：<br/>
  */
 
