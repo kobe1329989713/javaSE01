@@ -1,4 +1,4 @@
-package com.javaSE04.Exception.flection03;
+package com.javaSE04.Exception.flection03.demo00;
 
 /**
  * <br/>Author:Kobe
