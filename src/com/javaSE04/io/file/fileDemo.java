@@ -2,12 +2,12 @@ package com.javaSE04.io.file;
 
 
 import java.io.File;
-import java.io.IOException;
 
 /**
  * <br/>Author:Kobe
  * <br/>Date:2017/6/29 1:43
  * <br/>
+ * 字节，mp3,img
  */
 public class fileDemo {
     public static void main(String[] args) throws Exception {
