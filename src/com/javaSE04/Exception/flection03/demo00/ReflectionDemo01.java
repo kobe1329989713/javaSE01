@@ -1,4 +1,4 @@
-package com.javaSE04.Exception.flection03;
+package com.javaSE04.Exception.flection03.demo00;
 
 /**
  * <br/>Author:Kobe
@@ -28,7 +28,7 @@ public class ReflectionDemo01 {
 
     static void create3() {
         try {
-            Class c = Class.forName("com.javaSE04.Exception.flection03.User");
+            Class c = Class.forName("com.javaSE04.Exception.flection03.demo00.User");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -37,7 +37,7 @@ public class ReflectionDemo01 {
     static void create4() {
         // forName("类的全路径"，"是否初始化"，"类加载器")
         try {
-            Class c = Class.forName("com.javaSE04.Exception.flection03.User",true,ReflectionDemo01.class.getClassLoader());
+            Class c = Class.forName("com.javaSE04.Exception.flection03.demo00.User",true,ReflectionDemo01.class.getClassLoader());
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

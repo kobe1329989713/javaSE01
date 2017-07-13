@@ -1,4 +1,4 @@
-package com.javaSE04.Exception.flection03;
+package com.javaSE04.Exception.flection03.demo00;
 
 import java.lang.reflect.Field;
 
@@ -66,7 +66,7 @@ public class FieldInfo {
 
 
         /**
-         * 还可以继续 得到 这个属性的 类型是什么？？
+         * 还可以继续 得到 这个属性的 类型是什么？？4
          * 还可以得到这个属性访问修饰符是什么？？
          * 就在这个 Field 类，里面的哪个方法里。33
          */

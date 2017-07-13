@@ -1,4 +1,4 @@
-package com.Patterns.practice;
+package com.Patterns.patterns05;
 
 /**
  * <br/> author：Kobe
