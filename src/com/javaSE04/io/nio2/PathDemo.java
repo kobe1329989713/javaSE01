@@ -37,5 +37,10 @@ public class PathDemo{
 
         //  求一个子路径。
         System.out.println(p2.subpath(1, 3));
+
+        // 判断 p2 是否是 p3 开关的。
+        System.out.println(p2.startsWith(p3));
+        // 以什么结尾的路。
+        System.out.println(p2.endsWith(Paths.get("D://kobe")));
     }
 }
