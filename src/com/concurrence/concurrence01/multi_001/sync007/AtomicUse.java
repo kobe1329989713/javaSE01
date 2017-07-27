@@ -1,4 +1,5 @@
-package com.bjsxt.base.sync007;
+package com.concurrence.concurrence01.multi_001.sync007;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,7 @@ public class AtomicUse {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			count.addAndGet(1);
+			count.addAndGet(1); // 相当于 i+=10
 			count.addAndGet(2);
 			count.addAndGet(3);
 			count.addAndGet(4); //+10
