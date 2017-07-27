@@ -1,4 +1,4 @@
-package com.bjsxt.base.coll013;
+package com.concurrence.concurrence01.base01.coll013;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CopyOnWriteArraySet;
