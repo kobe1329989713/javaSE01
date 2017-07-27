@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 import java.util.Properties;
 
 /**
- * 解析 xx.properties 属性文件。
+ * 解析 decorator.properties 属性文件。
  */
 public class PropertiesDemo {
     public static void main(String[] args) throws Exception {

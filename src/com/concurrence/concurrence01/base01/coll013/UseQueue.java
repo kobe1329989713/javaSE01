@@ -10,7 +10,7 @@ public class UseQueue {
 		//高性能无阻塞无界队列：ConcurrentLinkedQueue
 		/**
 		ConcurrentLinkedQueue<String> q = new ConcurrentLinkedQueue<String>();
-		q.offer("a");
+		q.offer("a"); // 加元素。
 		q.offer("b");
 		q.offer("c");
 		q.offer("d");
@@ -32,8 +32,8 @@ public class UseQueue {
 		array.add("f");
 		//System.out.println(array.offer("a", 3, TimeUnit.SECONDS));
 		*/
-		
-		
+
+
 		/**
 		//阻塞队列
 		LinkedBlockingQueue<String> q = new LinkedBlockingQueue<String>();

@@ -82,7 +82,7 @@ public class TestDog {
     /**
      * 注：小写 class 与 大写 Class 的不同
      * 框架里面用 Class。forName("类的全路径")
-     * 这个方法来做，所以我们在 xx.xml 里面要配置多的全路径了，因为用的是反射里面这个方法
+     * 这个方法来做，所以我们在 decorator.xml 里面要配置多的全路径了，因为用的是反射里面这个方法
      *
      */
 }
