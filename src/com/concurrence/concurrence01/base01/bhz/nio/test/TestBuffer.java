@@ -14,7 +14,7 @@ public class TestBuffer {
 		buf.put(21);// position位置：1 - > 2
 		buf.put(35);// position位置：2 - > 3
 		//把位置复位为0，也就是position位置：3 - > 0
-		buf.flip();
+		buf.flip(); // 每次添加完元素必须要 flip() 下 复位下。 你在调用了，get() put() 方法以后，必须要 flip() 下。才行。
 		System.out.println("使用flip复位：" + buf);
 		System.out.println("容量为: " + buf.capacity());	//容量一旦初始化后不允许改变（warp方法包裹数组除外）
 		System.out.println("限制为: " + buf.limit());		//由于只装载了三个元素,所以可读取或者操作的元素为3 则limit=3
@@ -36,7 +36,7 @@ public class TestBuffer {
 		/**
 		//  wrap方法会包裹一个数组: 一般这种用法不会先初始化缓存对象的长度，因为没有意义，最后还会被wrap所包裹的数组覆盖掉。 
 		//  并且wrap方法修改缓冲区对象的时候，数组本身也会跟着发生变化。                     
-		int[] arr = new int[]{1,2,5};
+		int[] arr = new int[]{1,2,5}; // 把一个数组转换在 buffer 类型的。
 		IntBuffer buf1 = IntBuffer.wrap(arr);
 		System.out.println(buf1);
 		

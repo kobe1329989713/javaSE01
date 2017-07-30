@@ -13,7 +13,8 @@ public class Server {
 	private AsynchronousChannelGroup threadGroup;
 	//服务器通道
 	public AsynchronousServerSocketChannel assc;
-	
+
+	// 线程池。 与线程组概念
 	public Server(int port){
 		try {
 			//创建一个缓存池
@@ -26,7 +27,7 @@ public class Server {
 			assc.bind(new InetSocketAddress(port));
 			
 			System.out.println("server start , port : " + port);
-			//进行阻塞
+			//进行阻塞，ServerCompletionHandler() 它的对象主要就是负绩与 client 交互的。
 			assc.accept(this, new ServerCompletionHandler());
 			//一直阻塞 不让服务器停止
 			Thread.sleep(Integer.MAX_VALUE);

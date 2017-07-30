@@ -71,5 +71,12 @@ public class Client implements Runnable{
 		c2.write("c2 bbbb");
 		c3.write("c3 ccccc");
 	}
-	
+
 }
+
+
+
+
+
+
+
