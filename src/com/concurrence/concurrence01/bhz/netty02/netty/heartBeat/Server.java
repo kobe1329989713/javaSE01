@@ -1,4 +1,4 @@
-package com.concurrence.concurrence01.bhz.netty.serial;
+package com.concurrence.concurrence01.bhz.netty02.netty.heartBeat;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -26,12 +26,9 @@ public class Server {
 		 .handler(new LoggingHandler(LogLevel.INFO))
 		 .childHandler(new ChannelInitializer<SocketChannel>() {
 			protected void initChannel(SocketChannel sc) throws Exception {
-				//
 				sc.pipeline().addLast(MarshallingCodeCFactory.buildMarshallingDecoder());
 				sc.pipeline().addLast(MarshallingCodeCFactory.buildMarshallingEncoder());
-				//
-				// ServerHandler 它里面有一个方法就是直接接收数据的。
-				sc.pipeline().addLast(new ServerHandler());
+				sc.pipeline().addLast(new ServerHeartBeatHandler());
 			}
 		});
 		

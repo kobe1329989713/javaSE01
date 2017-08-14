@@ -1,4 +1,4 @@
-package com.concurrence.concurrence01.bhz.netty.serial;
+package com.concurrence.concurrence01.bhz.netty02.netty.heartBeat;
 
 import io.netty.handler.codec.marshalling.DefaultMarshallerProvider;
 import io.netty.handler.codec.marshalling.DefaultUnmarshallerProvider;
