@@ -11,7 +11,7 @@ import io.netty.handler.codec.http.LastHttpContent;
 import io.netty.util.CharsetUtil;
 
 /**
- * Handler that just dumps the contents of the response from the server
+ * IHandler that just dumps the contents of the response from the server
  */
 public class HttpUploadClientHandler extends SimpleChannelInboundHandler<HttpObject> {
 
