@@ -5,6 +5,7 @@ package com.Patterns.patterns08.bridge;
  * <br/>
  * Description:
  */
+
 public class BridgeTest {
     public static void main(String[] args) {
         Bridge bridge = new MyBridge();
