@@ -33,5 +33,6 @@ public class StringDemo {
         Integer d = new Integer(22);
 //        valueOf(int i):把int类型的数据转成字符串。 它有很多重载方法。
 
+
     }
 }

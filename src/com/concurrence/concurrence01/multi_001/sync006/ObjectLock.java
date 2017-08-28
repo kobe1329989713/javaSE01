@@ -1,4 +1,4 @@
-package com.bjsxt.base.sync006;
+package com.concurrence.concurrence01.bjsxt.base.sync006;
 
 /**
  * 使用synchronized代码块加锁,比较灵活

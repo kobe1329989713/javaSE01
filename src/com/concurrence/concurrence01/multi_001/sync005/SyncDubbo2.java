@@ -1,4 +1,4 @@
-package com.bjsxt.base.sync005;
+package com.concurrence.concurrence01.bjsxt.base.sync005;
 /**
  * synchronized的重入
  * @author alienware

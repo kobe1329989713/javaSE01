@@ -1,4 +1,4 @@
-package com.bjsxt.base.sync007;
+package com.concurrence.concurrence01.bjsxt.base.sync007;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

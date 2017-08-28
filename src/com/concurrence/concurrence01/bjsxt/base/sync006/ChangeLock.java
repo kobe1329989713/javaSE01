@@ -1,4 +1,4 @@
-package com.bjsxt.base.sync006;
+package com.concurrence.concurrence01.bjsxt.base.sync006;
 /**
  * 锁对象的改变问题
  * @author alienware

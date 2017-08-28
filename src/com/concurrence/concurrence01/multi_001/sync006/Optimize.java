@@ -1,4 +1,4 @@
-package com.bjsxt.base.sync006;
+package com.concurrence.concurrence01.bjsxt.base.sync006;
 
 /**
  * 使用synchronized代码块减小锁的粒度，提高性能
