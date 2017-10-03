@@ -1,9 +1,9 @@
-package com.Patterns.patterns01.exercise01;
+package com.Patterns.patterns01.exercise01.factory01;
 
 /**
  * 具体水果类，1
  */
-public class Apple implements IFruit {
+public class Strawberry implements IFruit {
 
     // 苹果树的年龄。
     private int treeAge;

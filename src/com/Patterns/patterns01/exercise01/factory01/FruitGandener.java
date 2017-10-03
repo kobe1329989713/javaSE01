@@ -1,4 +1,4 @@
-package com.Patterns.patterns01.exercise01;
+package com.Patterns.patterns01.exercise01.factory01;
 
 /**
  * 工厂，
