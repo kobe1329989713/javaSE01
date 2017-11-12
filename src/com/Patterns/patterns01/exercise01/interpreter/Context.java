@@ -5,7 +5,13 @@ package com.Patterns.patterns01.exercise01.interpreter;
  * <B>时间：</B>2017/10/04/ 18:21 星期三<BR>
  * <p>
  * <B>系统名称：</B>javaSE01<BR>
- * <B>概要说明：</B>javaSE01<BR>
+ * <B>概要说明：</B>
+ *
+ *  关联
+ *      组合：整体没有了，部分也是没有了。公司与部门。
+ *      聚合：整体没有了，部分还可以存在的。如：公司与员工
+ *      
+ * <BR>
  */
 public class Context {
     private int num1;
