@@ -24,7 +24,7 @@ public class AdjusterDemo12 {
 
 
         // 当前时间 之后的三个月。过两天的日期。
-        TemporalAdjuster adjuster = TemporalAdjusters.ofDateAdjuster((LocalDate date) -> date.plusMonths(3).plusDays(2l));
+        TemporalAdjuster adjuster = TemporalAdjusters.ofDateAdjuster((LocalDate date) -> date.plusMonths(3).plusDays(2L));
         System.out.println(d.with(adjuster));
 
 
